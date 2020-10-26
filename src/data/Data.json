@@ -1,0 +1,14 @@
+[
+    {
+        "id" : 1 ,
+        "name" : "Televisor" ,
+        "price" : 2000,
+        "category" : "tecnologia" ,
+        "imgURL" : "https://cnet4.cbsistatic.com/img/sc3EhhZ72Ke4miJtVNuhreHC0l8=/940x0/2019/08/09/bddb3395-e4e1-43c4-9901-b67642894188/01-youtube-tv.jpg" }
+    ,{
+        "id" : 2 ,
+        "name" : "celular" ,
+        "price" : 8000,
+        "category" : "tecnologia" ,
+        "imgURL" : "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcStbLPjzh8H2hP26ha87y2zh2lfjzv27FMXlJy8vIsx0cZFQRf6fbNCLMBmBFqE0w3_fE6mlWauerI&usqp=CAc" 
+    } ]
