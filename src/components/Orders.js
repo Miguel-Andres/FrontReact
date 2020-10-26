@@ -45,12 +45,12 @@ export default function Orders() {
             {order.map(item=><p>{item.title}</p>)}
             <div className="container">
                 <div className="row">
-                    <div className="col-3" style={{backgroundColor:"#bb2205"}}>
+                    <div className="col-3" >
                         <h3>Verifica tu compra </h3>
                         <input name="id" placeholder="id de la compra" /> 
                     </div>
                     
-                    <div className="col-9 row"style={{backgroundColor:"#edc988"}}>
+                    <div className="col-9 row">
                         <div style={{backgroundColor:"honeydew" , display:"flex",justifyContent:"center"}} className="col-12">
                         <h2>Detalle de la compra</h2>
                             </div>
@@ -105,7 +105,7 @@ export default function Orders() {
 
 
 
-                         <div className="col-4" style={{backgroundColor:"tomato"}}>
+                         <div className="col-4" >
                          <PriceBuy/>
                         </div>   
                         
