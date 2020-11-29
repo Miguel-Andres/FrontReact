@@ -48,7 +48,7 @@ function getOrder() {
   console.log(cart);
   orders.add(
       {
-      buyer: user,       
+      buyer: {user},       
       items: cart,
       data: firebase.firestore.Timestamp.fromDate(new Date()),
       total: totalPrice,                   
